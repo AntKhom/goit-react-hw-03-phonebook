@@ -13,6 +13,7 @@ const ContactForm = ({name, number, change, submit }) => {
                 required
             />
         <br />
+        
         <input
                 value={number}
                 onChange={change}
