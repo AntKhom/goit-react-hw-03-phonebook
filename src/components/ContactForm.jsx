@@ -12,8 +12,7 @@ const ContactForm = ({name, number, change, submit }) => {
                 placeholder="Name"
                 required
             />
-        <br />
-        
+        <br />      
         <input
                 value={number}
                 onChange={change}
